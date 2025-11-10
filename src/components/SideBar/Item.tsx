@@ -11,8 +11,8 @@ interface ItemProps {
 
 export function Item({
   label,
-  onClick,
-  onIconClick,
+  onClick = () => {},
+  onIconClick = () => {},
   icon: Icon,
   isActive = false,
   trailingItem,
