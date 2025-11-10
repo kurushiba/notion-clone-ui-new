@@ -1,14 +1,11 @@
-import { TitleInput } from '../components/TitleInput';
-import '../styles/pages/note-detail.css';
-
-const NoteDetail = () => {
+export function TitleInput() {
   return (
-    <div className='note-detail-container'>
-      <div className='note-detail-content'>
-        <TitleInput />
-      </div>
+    <div className='title-input-container'>
+      <textarea
+        className='title-input'
+        value={'ノートのタイトル'}
+        onChange={() => {}}
+      />
     </div>
   );
-};
-
-export default NoteDetail;
+}
