@@ -49,13 +49,6 @@ function Signin() {
                   ログイン
                 </button>
               </div>
-              <div className='auth-link-section'>
-                登録は
-                <a className='auth-link' href='/signup'>
-                  こちら
-                </a>
-                から
-              </div>
             </div>
           </div>
         </div>
