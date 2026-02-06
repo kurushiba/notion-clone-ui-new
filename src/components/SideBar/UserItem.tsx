@@ -6,9 +6,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '../ui/dropdown-menu';
-import { Item } from './Item';
+import Item from './Item';
 
-const UserItem = () => {
+export default function UserItem() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -40,6 +40,4 @@ const UserItem = () => {
       </DropdownMenuContent>
     </DropdownMenu>
   );
-};
-
-export default UserItem;
+}

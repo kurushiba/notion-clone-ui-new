@@ -1,6 +1,6 @@
 import '../styles/pages/auth.css';
 
-function Signin() {
+export default function Signin() {
   return (
     <div className='auth-container'>
       <div className='auth-wrapper'>
@@ -63,5 +63,3 @@ function Signin() {
     </div>
   );
 }
-
-export default Signin;

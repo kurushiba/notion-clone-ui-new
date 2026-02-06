@@ -9,7 +9,7 @@ interface ItemProps {
   trailingItem?: React.ReactElement;
 }
 
-export function Item({
+export default function Item({
   label,
   onClick = () => {},
   onIconClick = () => {},

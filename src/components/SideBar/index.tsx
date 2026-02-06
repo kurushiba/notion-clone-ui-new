@@ -1,9 +1,9 @@
-import { Item } from './Item';
-import { NoteList } from '../NoteList';
+import Item from './Item';
+import NoteList from '../NoteList';
 import UserItem from './UserItem';
 import { FiPlus, FiSearch } from 'react-icons/fi';
 
-const SideBar = () => {
+export default function SideBar() {
   return (
     <>
       <aside className='sidebar'>
@@ -25,6 +25,4 @@ const SideBar = () => {
       <div className='sidebar-placeholder'></div>
     </>
   );
-};
-
-export default SideBar;
+}

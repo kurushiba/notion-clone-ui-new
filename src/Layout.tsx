@@ -1,9 +1,9 @@
 import SideBar from './components/SideBar';
-import { SearchModal } from './components/SearchModal';
+import SearchModal from './components/SearchModal';
 import './styles/layout.css';
 import { Outlet } from 'react-router-dom';
 
-const Layout = () => {
+export default function Layout() {
   return (
     <div className='layout-container'>
       <SideBar />
@@ -13,6 +13,4 @@ const Layout = () => {
       <SearchModal />
     </div>
   );
-};
-
-export default Layout;
+}

@@ -8,7 +8,7 @@ import {
   CommandList,
 } from './ui/command';
 
-export function SearchModal() {
+export default function SearchModal() {
   return (
     <CommandDialog open={false} onOpenChange={() => {}}>
       <Command shouldFilter={false}>

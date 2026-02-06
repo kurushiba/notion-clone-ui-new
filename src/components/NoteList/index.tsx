@@ -1,6 +1,6 @@
-import { NoteItem } from './NoteItem';
+import NoteItem from './NoteItem';
 
-export function NoteList() {
+export default function NoteList() {
   // 展開状態のモック（UI確認時に変更可能）
   const expandedNotes = new Map<number, boolean>();
   // expandedNotes.set(2, true); // タスク一覧を展開する場合

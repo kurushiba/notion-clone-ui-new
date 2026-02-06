@@ -12,9 +12,9 @@ import {
   FiPlus,
   FiTrash2,
 } from 'react-icons/fi';
-import { Item } from '../SideBar/Item';
+import Item from '../SideBar/Item';
 
-export function NoteItem() {
+export default function NoteItem() {
   const menu = (
     <div className='note-item-menu-container'>
       <DropdownMenu>

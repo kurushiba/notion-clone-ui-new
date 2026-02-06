@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './pages/Home';
+import Home from './pages/Home';
 import NoteDetail from './pages/NoteDetail';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import './styles/layout.css';
 import Layout from './Layout';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <div className='app-container'>
@@ -22,5 +22,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;

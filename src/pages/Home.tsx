@@ -7,7 +7,7 @@ import {
 import { FiPlus } from 'react-icons/fi';
 import '../styles/pages/home.css';
 
-export function Home() {
+export default function Home() {
   return (
     <Card className='home-card'>
       <CardHeader className='home-card-header'>
