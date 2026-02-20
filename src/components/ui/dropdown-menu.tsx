@@ -8,7 +8,7 @@ import '../../styles/components/dropdown-menu.css';
 interface DropdownMenuContextType {
   open: boolean;
   setOpen: (open: boolean) => void;
-  triggerRef: React.RefObject<HTMLElement>;
+  triggerRef: React.RefObject<HTMLElement | null>;
 }
 
 const DropdownMenuContext = React.createContext<DropdownMenuContextType | null>(
