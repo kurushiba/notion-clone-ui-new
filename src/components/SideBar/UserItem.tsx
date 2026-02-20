@@ -34,7 +34,7 @@ export default function UserItem() {
           </div>
         </div>
         <DropdownMenuSeparator />
-        <DropdownMenuItem className='user-item-logout' asChild>
+        <DropdownMenuItem className='user-item-logout'>
           <Item label='ログアウト' icon={FiLogOut} onClick={() => {}} />
         </DropdownMenuItem>
       </DropdownMenuContent>
